@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản</title>
+    <style>
+        .mauxanh{color: blue;
+        float: right;}
+        .maucam{color: orangered;}
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <th colspan="2" style="background: orangered">SỞ THÍCH CỦA BẠN</th>
+            </tr>
+            <tr>
+                <td class="mauxanh">Họ và tên:</td>
+                <td><input type="text" name="hoten"></td>
+            </tr>
+            <tr>
+                <td class="mauxanh">Email:</td>
+                <td>
+                    <input type="text" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td class="mauxanh">Sở thích</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td class="maucam"><input type="checkbox"><label>Thể thao</label></td>
+                            <td class="maucam"><input type="checkbox"><label>Âm nhạc</label></td>
+                            <td class="maucam"><input type="checkbox"><label>Đọc sách</label></td>
+                        </tr>
+                        <tr>
+                            <td class="maucam"><input type="checkbox"><label>Lướt web</label></td>
+                            <td class="maucam"><input type="checkbox"><label>Chơi game</label></td>
+                            <td class="maucam"><input type="checkbox"><lable>Điện ảnh</lable></td>
+                        </tr>
+                        <tr>
+                            <td class="maucam"><input type="checkbox"><label></label>Du lịch</td>
+                        </tr>
+                    </table>
+                </td>
+            <tr>
+            <td></td>
+                <td><input type="submit" value="Gửi thông tin">
+                <input type="submit" value="Nhập lại"></td>
+            </tr>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
